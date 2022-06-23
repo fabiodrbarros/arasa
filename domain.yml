@@ -21,7 +21,7 @@ responses:
   utter_did_that_help:
   - text: Did that help you?
   utter_happy:
-  - text: Great, carry on!
+  - text: Fantástico, senhor!
   utter_goodbye:
   - text: Adeus
   - text: Até já senhor.
