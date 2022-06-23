@@ -13,9 +13,6 @@ intents:
 responses:
   utter_greet:
   - text: Olá Senhor, em que lhe posso ser útil?
-  - text: Olá, tudo bem?
-  - text: Oi
-  - text: Olá, em que posso ajudar?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
