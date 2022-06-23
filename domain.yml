@@ -23,5 +23,6 @@ responses:
   utter_goodbye:
   - text: Adeus
   - text: Até já senhor.
+  - text: Certo, sempre que precisar disponha.
   utter_iamabot:
   - text: Eu sou um agente conversacional para o ajudar.
