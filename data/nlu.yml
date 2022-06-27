@@ -14,13 +14,17 @@ nlu:
 - intent: affirm
   examples: |
     - Ola
-    - Só sabes dizer olá e adeus?
-- intent: bot_challenge
+- intent: ask_what_i_am_capable
   examples: |
-    - Quém és?
+    - Só sabes dizer olá e adeus?
+    - Não fazes mais nada?
+    - só?
 - intent: ask_who_i_am
   examples: |
+    - Quém és?
     - Quem és?
-- intent: deny
+    - quem és?
+    - Olá, quem és?
+- intent: make_a_joke
   examples: |
-    - Não fazes mais nada?
+    - estás vivo!

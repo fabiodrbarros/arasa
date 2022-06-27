@@ -12,3 +12,11 @@ stories:
   steps:
   - intent: ask_who_i_am
   - action: utter_iamabot
+- story: Say what i can do
+  steps:
+  - intent: ask_what_i_am_capable
+  - action: utter_iamcapable
+- story: Say a joke
+  steps:
+  - intent: make_a_joke
+  - action: utter_joke
