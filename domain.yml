@@ -10,6 +10,8 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+- ask_who_i_am
+- ask_who_i_amm
 responses:
   utter_greet:
   - text: Olá, em que lhe posso ser útil?
@@ -22,7 +24,6 @@ responses:
   - text: Até já.
   - text: Certo, sempre que precisar disponha.
   utter_iamabot:
-  - text: Eu sou um agente conversacional para o ajudar.
   - text: Eu sou um agente conversacional que, para já, só sei dizer Olá e Adeus.
   utter_utter_denny:
   - text: Infelizmente, não.

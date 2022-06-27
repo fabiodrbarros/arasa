@@ -8,3 +8,7 @@ stories:
   steps:
   - intent: goodbye
   - action: utter_goodbye
+- story: I am a bot
+  steps:
+  - intent: ask_who_i_amm
+  - action: utter_iamabot
