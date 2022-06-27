@@ -10,5 +10,5 @@ stories:
   - action: utter_goodbye
 - story: I am a bot
   steps:
-  - intent: ask_who_i_amm
+  - intent: ask_who_i_am
   - action: utter_iamabot
