@@ -10,33 +10,17 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
-- ask_for_drink
-entities:
-- type_of_beverage
-slots:
-  type_of_beverage:
-    type: text
-    influence_conversation: true
-    mappings:
-    - type: from_entity
-      entity: type_of_beverage
 responses:
   utter_greet:
-  - text: Olá Senhor, em que lhe posso ser útil?
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Did that help you?
+  - text: Olá, em que lhe posso ser útil?
+  - text: Sim?
+  - text: Em que posso ajudar?
   utter_happy:
-  - text: Fantástico, senhor!
+  - text: Fantástico!
   utter_goodbye:
-  - text: Adeus
-  - text: Até já senhor.
+  - text: Adeus.
+  - text: Até já.
   - text: Certo, sempre que precisar disponha.
   utter_iamabot:
   - text: Eu sou um agente conversacional para o ajudar.
-  utter_provide_drink:
-  - text: Nothing like a good beer in the afternoon
-  - text: Great! I'll prepare a {type_of_beverage}!
-  - text: One {type_of_beverage} coming up!
+  - text: Eu sou um agente conversacional que, para já, só sei dizer adeus.
