@@ -18,6 +18,8 @@ nlu:
 - intent: bot_challenge
   examples: |
     - Quém és?
+- intent: ask_who_i_am
+  examples: |
     - Quem és?
 - intent: deny
   examples: |
