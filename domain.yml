@@ -24,3 +24,7 @@ responses:
   utter_iamabot:
   - text: Eu sou um agente conversacional para o ajudar.
   - text: Eu sou um agente conversacional que, para já, só sei dizer adeus.
+  utter_utter_denny:
+  - text: Infelizmente, não.
+  - text: Lamento.
+  - text: Não.

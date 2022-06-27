@@ -1,1 +1,10 @@
 version: "3.0"
+stories:
+- story: Say Hello
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: Say Bye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
