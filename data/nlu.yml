@@ -16,6 +16,7 @@ nlu:
     - goodevening
     - good afternoon
     - Ola
+    - Hello
 - intent: goodbye
   examples: |
     - cu
@@ -83,3 +84,9 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+- intent: ask_for_drink
+  examples: |
+    - Can I have a [beer](type_of_beverage), please?
+    - I really need a drink.
+    - I need something to clear my throat, maybe a [whisky](type_of_beverage)
+    - I need a beverage
