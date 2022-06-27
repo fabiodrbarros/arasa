@@ -12,6 +12,8 @@ intents:
 - bot_challenge
 - ask_who_i_am
 - ask_who_i_amm
+- ask_what_i_am_capable
+- make_a_joke
 responses:
   utter_greet:
   - text: Olá, em que lhe posso ser útil?
@@ -19,13 +21,25 @@ responses:
   - text: Em que posso ajudar?
   utter_happy:
   - text: Fantástico!
+  - text: Excelente!
+  - text: Só temos de continuar assim.
   utter_goodbye:
   - text: Adeus.
   - text: Até já.
   - text: Certo, sempre que precisar disponha.
   utter_iamabot:
   - text: Eu sou um agente conversacional que, para já, só sei dizer Olá e Adeus.
-  utter_utter_denny:
+  - text: O meu nome é Duarte.
+  - text: A pessoa que o pode ajudar quando precisar.
+  utter_denny:
   - text: Infelizmente, não.
   - text: Lamento.
   - text: Não.
+  utter_iamcapable:
+  - text: Dizer olá, adeus, quem sou e pouco mais...
+  - text: Para já muito pouco.
+  - text: Sei dizer Olá
+  utter_joke:
+  - text: Mas brincamos, sou o maior!
+  - text: Como um elefante no meio da sala.
+  - text: Eu mesmo!
