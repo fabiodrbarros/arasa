@@ -20,3 +20,9 @@ stories:
   steps:
   - intent: make_a_joke
   - action: utter_joke
+- story: Mood UnHappy
+  steps:
+  - intent: mood_unhappy
+  - action: utter_ask_to_make_a_joke
+  - intent: affirm
+  - action: utter_joke

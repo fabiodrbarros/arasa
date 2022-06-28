@@ -9,16 +9,11 @@ nlu:
     - Oi
     - oi
     - Bot
+    - Olá lindo
 - intent: goodbye
   examples: |
     - Adeus.
     - adeus
-- intent: affirm
-  examples: |
-    - Ola
-    - está bem
-    - hum, está bem.
-    - muito bem!
 - intent: ask_what_i_am_capable
   examples: |
     - Só sabes dizer olá e adeus?
@@ -28,6 +23,7 @@ nlu:
     - o que fazes?
     - o que fazes tu?
     - e fazes?
+    - e que faz tu, ó Duarte?
 - intent: ask_who_i_am
   examples: |
     - Quém és?
@@ -37,6 +33,7 @@ nlu:
     - Quem fala?
     - és o que?
     - quem és tu afinal?
+    - Quém fala
 - intent: make_a_joke
   examples: |
     - estás vivo!
@@ -45,6 +42,20 @@ nlu:
   examples: |
     - estou triste...
     - estou triste.
+    - estou a ter um mau dia
+    - hum...estou triste hoje.
 - intent: bot_challenge
   examples: |
     - boa piada!
+- intent: affirm
+  examples: |
+    - OK
+    - sim
+    - pode ser
+    - Ola
+    - sim, pode ser
+    - está bem
+    - hum, está bem.
+- intent: grateful
+  examples: |
+    - Boa piada!

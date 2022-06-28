@@ -3,6 +3,7 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- grateful
 - greet
 - goodbye
 - affirm
@@ -17,8 +18,9 @@ intents:
 responses:
   utter_greet:
   - text: Olá, em que lhe posso ser útil?
-  - text: Sim?
   - text: Em que posso ajudar?
+  - text: Olá
+  - text: Posso ser-lhe útil em algo?
   utter_happy:
   - text: Fantástico!
   - text: Excelente!
@@ -28,7 +30,7 @@ responses:
   - text: Até já.
   - text: Certo, sempre que precisar disponha.
   utter_iamabot:
-  - text: Eu sou um agente conversacional que, para já, só sei dizer Olá e Adeus.
+  - text: Eu sou um agente conversacional.
   - text: O meu nome é Duarte.
   - text: A pessoa que o pode ajudar quando precisar.
   utter_denny:
@@ -36,10 +38,19 @@ responses:
   - text: Lamento.
   - text: Não.
   utter_iamcapable:
-  - text: Dizer olá, adeus, quem sou e pouco mais...
+  - text: Dizer olá, adeus, quem sou e contar piadas.
   - text: Para já muito pouco.
   - text: Sei dizer Olá
+  - text: Sei contar piadas.
   utter_joke:
-  - text: Mas brincamos, sou o maior!
-  - text: Como um elefante no meio da sala.
-  - text: Eu mesmo!
+  - text: Construir um prédio não é fácil. Edifício!
+  - text: Dizem que todos temos um lado bonito. Mas acho que eu sou um circulo.
+  - text: Sou tão mau que o meu desvio padrão é zero.
+  utter_ask_to_make_a_joke:
+  - text: Posso contar uma piada.
+  utter_be_grateful:
+  - text: Feliz por ajudar!
+  - text: Obrigado!
+  - text: Sempre ao seu dispor!
+actions:
+- utter_be_grateful
